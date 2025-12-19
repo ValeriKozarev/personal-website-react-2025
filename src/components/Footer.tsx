@@ -1,10 +1,10 @@
 export default function Footer() {
   return (
     <footer className="bg-white border-t border-slate-200 mt-auto">
-      <div className="container mx-auto px-4 py-12">
+      <div className="container mx-auto px-4 py-6">
         <div className="max-w-4xl mx-auto text-center">
-          <h3 className="text-2xl font-semibold mb-4">Let's Connect!</h3>
-          <p className="text-slate-600 mb-6">
+          <h3 className="text-lg font-semibold mb-2">Let's Connect!</h3>
+          <p className="text-sm text-slate-600 mb-4">
             If you'd like to connect with me feel free to reach out on any of these platforms!
           </p>
           <div className="flex justify-center gap-6">
