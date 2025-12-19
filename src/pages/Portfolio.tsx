@@ -1,8 +1,60 @@
+import WorkExperienceCard from "../components/WorkExperienceCard";
+
 export default function Portfolio() {
   return (
     <div className="flex-1">
       <div className="container mx-auto px-4 py-16">
         <div className="max-w-4xl mx-auto">
+          {/* Work History Section */}
+          <section className="mb-16">
+            <h2 className="text-4xl font-bold mb-8">Work History</h2>
+            <div className="space-y-8">
+              <WorkExperienceCard
+                title={"Senior Software Engineer (promoted from Software Engineer II)"}
+                company={"Alarm.com"}
+                timeStart={"June 2022"}
+                timeEnd={"Present"}
+                summary={"TODO..."}
+                isCurrent={true}
+              />
+              <WorkExperienceCard
+                title={"Full-stack Software Developer, MyChart"}
+                company={"Epic Systems"}
+                timeStart={"Aug 2020"}
+                timeEnd={"Jan 2022"}
+                summary={"TODO..."}
+              />
+              <WorkExperienceCard
+                title={"Technology Analyst Intern"}
+                company={"Credit Suisse"}
+                timeStart={"Summer 2021"}
+                timeEnd={""}
+                summary={"TODO..."}
+              />
+              <WorkExperienceCard
+                title={"Undergraduate Research Assistant (NCSU, Dr. Williams)"}
+                company={"NCSU"}
+                timeStart={"2019-'20 School Year"}
+                timeEnd={""}
+                summary={"TODO..."}
+              />
+              <WorkExperienceCard
+                title={"Undergraduate Research Assistant (NCSU, Dr. Shen)"}
+                company={"NCSU"}
+                timeStart={"2018-'19 School Year"}
+                timeEnd={""}
+                summary={"TODO..."}
+              />
+              <WorkExperienceCard
+                title={"Database Development Intern"}
+                company={"PeopleFluent"}
+                timeStart={"May 2017"}
+                timeEnd={"Aug 2018"}
+                summary={"TODO..."}
+              />
+            </div>
+          </section>
+
           {/* Projects Section */}
           <section className="mb-16">
             <h2 className="text-4xl font-bold mb-8">Projects</h2>
@@ -20,20 +72,6 @@ export default function Portfolio() {
                     TypeScript
                   </span>
                 </div>
-              </div>
-            </div>
-          </section>
-
-          {/* Work History Section */}
-          <section className="mb-16">
-            <h2 className="text-4xl font-bold mb-8">Work History</h2>
-            <div className="space-y-6">
-              <div className="border-l-2 border-slate-200 pl-6">
-                <h3 className="text-2xl font-semibold">Job Title</h3>
-                <p className="text-slate-600 mb-2">Company Name • 2020-Present</p>
-                <p className="text-slate-700">
-                  Description of role and accomplishments...
-                </p>
               </div>
             </div>
           </section>
