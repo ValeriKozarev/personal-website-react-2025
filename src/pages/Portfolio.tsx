@@ -12,8 +12,8 @@ export default function Portfolio() {
       <div className="container mx-auto px-4 py-16">
         <div className="max-w-4xl mx-auto">
 
-          <section className="mb-12">
-            <h2 className="text-4xl font-bold mb-4 pb-1 border-b-2 border-sky-600 inline-block">Work History</h2>
+          <section className="mb-16">
+            <h2 className="text-4xl font-bold mb-4 pb-1 border-b-2 border-cyan-600 inline-block">Work History</h2>
             <div className="relative">
               <div
                 id="work-history-list"
@@ -84,7 +84,7 @@ export default function Portfolio() {
 
           {/* Projects Section */}
           <section className="mb-16">
-            <h2 className="text-4xl font-bold mb-4 pb-1 border-b-2 border-sky-600 inline-block">Projects</h2>
+            <h2 className="text-4xl font-bold mb-4 pb-1 border-b-2 border-cyan-600 inline-block">Projects</h2>
             <div className="space-y-6">
               <ProjectCard
                 title="Project Title"
@@ -97,7 +97,7 @@ export default function Portfolio() {
 
           {/* Skills Section */}
           <section className="mb-16">
-            <h2 className="text-4xl font-bold mb-4 pb-1 border-b-2 border-sky-600 inline-block">Skills</h2>
+            <h2 className="text-4xl font-bold mb-4 pb-1 border-b-2 border-cyan-600 inline-block">Skills</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div>
                 <h3 className="text-xl font-semibold mb-3">Frontend</h3>
@@ -120,7 +120,7 @@ export default function Portfolio() {
 
           {/* Education Section */}
           <section>
-            <h2 className="text-4xl font-bold mb-4 pb-1 border-b-2 border-sky-600 inline-block">Education</h2>
+            <h2 className="text-4xl font-bold mb-4 pb-1 border-b-2 border-cyan-600 inline-block">Education</h2>
             <EducationCard
               degree="Bachelor's Degree, Computer Science (Statistics Minor)"
               school="North Carolina State University"

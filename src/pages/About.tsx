@@ -1,9 +1,21 @@
 export default function About() {
+  const title = "About Me";
+
   return (
     <div className="flex-1">
       <div className="container mx-auto px-4 py-16">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl font-bold mb-8">About Me</h1>
+          <h1 className="text-5xl font-bold mb-8">
+            {title.split('').map((char, index) => (
+              <span
+                key={index}
+                className="inline-block animate-rainbow"
+                style={{ animationDelay: `${index * 0.1}s` }}
+              >
+                {char === ' ' ? '\u00A0' : char}
+              </span>
+            ))}
+          </h1>
 
           {/* Hobbies & Interests */}
           <section className="mb-16">
