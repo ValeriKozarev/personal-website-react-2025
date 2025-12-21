@@ -1,4 +1,5 @@
 import { useState } from "react";
+import LazyImage from "../components/LazyImage";
 
 const allPhotos = [
   { src: "/photos/photo1.jpeg", alt: "Buddha statues in a row in manicured outdoor garden." },
@@ -58,45 +59,45 @@ export default function About() {
 
           <section className="mb-16">
             <div className="grid grid-cols-1 md:grid-cols-5 md:grid-rows-[repeat(3,400px)] gap-4">
-              <div className="md:col-span-3 aspect-[4/3] md:aspect-auto bg-slate-200 rounded-lg overflow-hidden">
-                <img
+              <div className="md:col-span-3 aspect-[4/3] md:aspect-auto rounded-lg overflow-hidden">
+                <LazyImage
                   src={selectedPhotos[0].src}
                   alt={selectedPhotos[0].alt}
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="md:col-span-2 aspect-[4/3] md:aspect-auto bg-slate-200 rounded-lg overflow-hidden">
-                <img
+              <div className="md:col-span-2 aspect-[4/3] md:aspect-auto rounded-lg overflow-hidden">
+                <LazyImage
                   src={selectedPhotos[1].src}
                   alt={selectedPhotos[1].alt}
                   className="w-full h-full object-cover"
                 />
               </div>
 
-              <div className="md:col-span-2 aspect-[4/3] md:aspect-auto bg-slate-200 rounded-lg overflow-hidden">
-                <img
+              <div className="md:col-span-2 aspect-[4/3] md:aspect-auto rounded-lg overflow-hidden">
+                <LazyImage
                   src={selectedPhotos[2].src}
                   alt={selectedPhotos[2].alt}
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="md:col-span-3 aspect-[4/3] md:aspect-auto bg-slate-200 rounded-lg overflow-hidden">
-                <img
+              <div className="md:col-span-3 aspect-[4/3] md:aspect-auto rounded-lg overflow-hidden">
+                <LazyImage
                   src={selectedPhotos[3].src}
                   alt={selectedPhotos[3].alt}
                   className="w-full h-full object-cover"
                 />
               </div>
 
-              <div className="md:col-span-3 aspect-[4/3] md:aspect-auto bg-slate-200 rounded-lg overflow-hidden">
-                <img
+              <div className="md:col-span-3 aspect-[4/3] md:aspect-auto rounded-lg overflow-hidden">
+                <LazyImage
                   src={selectedPhotos[4].src}
                   alt={selectedPhotos[4].alt}
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="md:col-span-2 aspect-[4/3] md:aspect-auto bg-slate-200 rounded-lg overflow-hidden">
-                <img
+              <div className="md:col-span-2 aspect-[4/3] md:aspect-auto rounded-lg overflow-hidden">
+                <LazyImage
                   src={selectedPhotos[5].src}
                   alt={selectedPhotos[5].alt}
                   className="w-full h-full object-cover"

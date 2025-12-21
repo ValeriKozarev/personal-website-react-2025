@@ -86,7 +86,7 @@ export default function Portfolio() {
               <ProjectCard
                 title="Personal Website v3"
                 description="This site you're on right now! I rewrite this site every few years to explore new tools, stay current with industry trends, and sharpen my skills. Previous versions used frameworks I was more familiar with at the time such as Nuxt.js and Vue which you can find on my GitHub."
-                technologies={["React", "TypeScript", "Tailwind", "Next.js"]}
+                technologies={["React", "TypeScript", "Tailwind", "Vite"]}
                 projectUrl="https://github.com/ValeriKozarev/personal-website-react-2025"
               />
               <ProjectCard
