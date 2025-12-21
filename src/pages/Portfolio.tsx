@@ -19,7 +19,7 @@ export default function Portfolio() {
                   company={"Alarm.com"}
                   timeStart={"June 2022"}
                   timeEnd={"Present"}
-                  summary={["Promoted to take ownership of team's web efforts, with expanded responsibility high-level project planning, managing mid-level engineers, and collaborating with leads on new initiatives.", "Owned a business-critical tool from design through deployment which processed millions of live, production accounts with a failure rate below 0.1%. This work directly unblocked more than a dozen high-impact projects across multiple departments.", "Served as a key engineer on a time-sensitive, high-visibility initiative that successfully migrated a large portion of the customer base to push notifications, directly reducing operational costs.", "Led initiatives to standardize accessibility testing and documentation which streamlined team workflows, improved productivity across departments, and improved company accessibility and UX posture.", "Participated in recurring Innovation Weeks, regularly delivering a new prototype or feature proposal grounded in real company needs. Wins include new integrations with AI to improve backlog ticket maintenance, internal web apps to increase developer productivity, and new accessibility-focused features in our product offering."]}
+                  summary={["Promoted to take ownership of team's web efforts, with expanded responsibilities including high-level project planning, managing mid-level engineers, and collaborating with leads on new initiatives.", "Owned a business-critical tool from design through deployment which processed millions of live, production accounts with a failure rate below 0.1%. This work directly unblocked more than a dozen high-impact projects across multiple departments.", "Served as a key engineer on a time-sensitive, high-visibility initiative that successfully migrated a large portion of the customer base to push notifications, directly reducing operational costs.", "Led initiatives to standardize accessibility testing and documentation which streamlined team workflows, improved productivity across departments, and improved company accessibility and UX posture.", "Participated in recurring Innovation Weeks, regularly delivering a new prototype or feature proposal grounded in real company needs. Wins include new integrations with AI to improve backlog ticket maintenance, internal web apps to increase developer productivity, and new accessibility-focused features in our product offering."]}
                   isCurrent={true}
                   technologies={["Ember", "TypeScript", "React", "C#", ".NET", "SQL"]}
                 />
@@ -28,7 +28,7 @@ export default function Portfolio() {
                   company={"Epic Systems"}
                   timeStart={"Aug 2020"}
                   timeEnd={"Jan 2022"}
-                  summary={["Lead and contributed to several large-scale, multi-release projects. Gained crucial experience managing projects, as well as designing and implementing new, major functionality for product users across various demographics.", "Developed novel approach for implementing decision trees in telemedicine self-triage flows as part of collaboration project with a third-party service.", "Key contributor to project for tracking patient COVID-19 vaccinations in MyChart app. Worked quickly and diligently to deliver high-impact work in unprecedented global circumstances.", " Consistently ranked as a top performer on my team."]}
+                  summary={["Led and contributed to several large-scale, multi-release projects. Gained crucial experience managing projects, as well as designing and implementing new, major functionality for product users across various demographics.", "Developed novel approach for implementing decision trees in telemedicine self-triage flows as part of collaboration project with a third-party service.", "Key contributor to project for tracking patient COVID-19 vaccinations in MyChart app. Worked quickly and diligently to deliver high-impact work in unprecedented global circumstances.", "Consistently ranked as a top performer on my team."]}
                   technologies={["MUMPS", "C#", "ASP.NET", ".NET Core", "Angular"]}
                 />
                 <WorkExperienceCard
@@ -44,7 +44,7 @@ export default function Portfolio() {
                   company={"NCSU"}
                   timeStart={"2019-'20 School Year"}
                   timeEnd={""}
-                  summary={["Contributed to on-going projects and research centered around security and security education. Primary tasks included exploring tools that could aid the research team, configuring and maintaining test environments, and quantifying results.", "Co-author, “Do I really need all this work to find vulnerabilities?”, Empirical Software Engineering 27, 154 (2022).", "Co-author, “Structuring a Comprehensive Software Security Course Around the OWASP Application Security Verification Standard”, ICSE-JSEET 2021"]}
+                  summary={["Contributed to ongoing projects and research centered around security and security education. Primary tasks included exploring tools that could aid the research team, configuring and maintaining test environments, and quantifying results.", "Co-author, “Do I really need all this work to find vulnerabilities?”, Empirical Software Engineering 27, 154 (2022).", "Co-author, “Structuring a Comprehensive Software Security Course Around the OWASP Application Security Verification Standard”, ICSE-JSEET 2021"]}
                   technologies={["Linux", "Python"]}
                 />
                 <WorkExperienceCard
@@ -74,7 +74,7 @@ export default function Portfolio() {
               <ProjectCard
                 title="Vibecheck"
                 description="A single-page web app that leverages Spotify APIs to allow users to sign-in with their Spotify accounts to see their stats, visualize audio features of their playlists, and find new music! To me, this type of project is a perfect marriage of some of my main interests so I've loved working on it and iterating over the years!"
-                technologies={["React", "TypeScript", "Tailwind", "Next.js"]}
+                technologies={["React", "TypeScript", "Tailwind", "Vite"]}
                 projectUrl="https://github.com/ValeriKozarev/vibecheck_2.0"
               />
               <ProjectCard
@@ -91,7 +91,7 @@ export default function Portfolio() {
               />
               <ProjectCard
                 title="Valerium"
-                description="Network Security was one of my favorite classes that I took as an undergrad, and one of the things we learned about in that class was blockchain technology. I found myself inspired to learn more about how cryptocurrencies use blockchain technology and tried my hand at creating my very own simple cryptocurrency in Python! Valerium is the result of that effort, it is a simple cryptocurrency that allows users to commit transactions, mine blocks, and reach consensus via Flask endpoints. It's not feature-complete or anything like that, but rather a small proof-of-concept to improve my own understanding. Buy, buy, buy! Valerium to the MOON!!!"
+                description="Network Security was one of my favorite classes that I took as an undergrad, and one of the things we learned about in that class was blockchain technology. I found myself inspired to learn more about how cryptocurrencies use blockchain technology and tried my hand at creating my very own simple cryptocurrency in Python! Valerium is the result of that effort, it is a simple cryptocurrency that allows users to commit transactions, mine blocks, and reach consensus via Flask endpoints."
                 technologies={["Python", "Block-chain"]}
                 projectUrl="https://github.com/ValeriKozarev/Valerium"
               />

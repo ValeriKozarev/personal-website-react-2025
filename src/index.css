@@ -7,25 +7,25 @@
 
 @keyframes rainbow {
   0%, 100% {
-    color: #1e293b; /* slate-800 - default text color */
+    color: #1e293b; /* start with default text color */
   }
   14% {
-    color: #dc2626; /* red-600 */
+    color: #dc2626;
   }
   28% {
-    color: #ea580c; /* orange-600 */
+    color: #ea580c;
   }
   42% {
-    color: #ca8a04; /* yellow-600 */
+    color: #ca8a04;
   }
   57% {
-    color: #16a34a; /* green-600 */
+    color: #16a34a;
   }
   71% {
-    color: #2563eb; /* blue-600 */
+    color: #2563eb;
   }
   85% {
-    color: #9333ea; /* purple-600 */
+    color: #9333ea;
   }
 }
 

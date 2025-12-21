@@ -1,35 +1,34 @@
 import { useState } from "react";
 
-// Array of all available photos (add your actual photo paths here)
 const allPhotos = [
-  "/photos/photo1.jpeg",
-  "/photos/photo2.jpeg",
-  "/photos/photo3.jpeg",
-  "/photos/photo4.jpeg",
-  "/photos/photo5.jpeg",
-  "/photos/photo6.jpeg",
-  "/photos/photo7.jpeg",
-  "/photos/photo8.jpeg",
-  "/photos/photo9.jpeg",
-  "/photos/photo10.jpeg",
-  "/photos/photo11.jpeg",
-  "/photos/photo12.jpeg",
-  "/photos/photo13.jpeg",
-  "/photos/photo14.jpeg",
-  "/photos/photo15.jpeg",
-  "/photos/photo16.jpeg",
-  "/photos/photo17.jpeg",
-  "/photos/photo18.jpeg",
-  "/photos/photo19.jpeg",
-  "/photos/photo20.jpeg",
-  "/photos/photo21.jpeg",
-  "/photos/photo22.jpeg",
-  "/photos/photo23.jpeg",
-  "/photos/photo24.jpeg",
-  "/photos/photo25.jpeg",
-  "/photos/photo26.jpeg",
-  "/photos/photo27.jpeg",
-  "/photos/photo28.jpeg",
+  { src: "/photos/photo1.jpeg", alt: "Buddha statues in a row in manicured outdoor garden." },
+  { src: "/photos/photo2.jpeg", alt: "Green canopy over an outdoor cafe with sunlight passing through." },
+  { src: "/photos/photo3.jpeg", alt: "Panoramic view of Southern California coastline." },
+  { src: "/photos/photo4.jpeg", alt: "Close-up of Moto Guzzi motorcycle in the sun." },
+  { src: "/photos/photo5.jpeg", alt: "Panoramic view of black sand beach in Iceland." },
+  { src: "/photos/photo6.jpeg", alt: "Quiet morning in a harbor in a small Alaskan town." },
+  { src: "/photos/photo7.jpeg", alt: "Tree being hit by rays of golden hour light with clouds behind it." },
+  { src: "/photos/photo8.jpeg", alt: "Free-standing natural stone arch in the water with a tree growing out the top." },
+  { src: "/photos/photo9.jpeg", alt: "Pedestrian bridge with Multnomah Falls behind it." },
+  { src: "/photos/photo10.jpeg", alt: "Icelandic landscape with steam from natural geothermic geisers." },
+  { src: "/photos/photo11.jpeg", alt: "Dog on a sailboat while owner prepares to embark." },
+  { src: "/photos/photo12.jpeg", alt: "Japanese Buddhist temple in the sun." },
+  { src: "/photos/photo13.jpeg", alt: "Pedestrian bridge over serene pond in royal Japanese gardens." },
+  { src: "/photos/photo14.jpeg", alt: "Selfie against wide-angle traffic mirror in a quiet neighborhood." },
+  { src: "/photos/photo15.jpeg", alt: "Profile photo of myself sitting on my motorcycle." },
+  { src: "/photos/photo16.jpeg", alt: "Red Rocks amphitheatre in the morning with folks walking around." },
+  { src: "/photos/photo17.jpeg", alt: "Alaskan landscape with coastline and sun emerging from behind the clouds." },
+  { src: "/photos/photo18.jpeg", alt: "Small boy chasing seagulls on a Wisconsin beach." },
+  { src: "/photos/photo19.jpeg", alt: "Church in Iceland standing alone on a hill surrounded by Alaskan Lupine flowers." },
+  { src: "/photos/photo20.jpeg", alt: "Crane standing in a river." },
+  { src: "/photos/photo21.jpeg", alt: "Japanese temple lit by the early morning sun." },
+  { src: "/photos/photo22.jpeg", alt: "Sun-dappled grove of trees in a public park in Japan." },
+  { src: "/photos/photo23.jpeg", alt: "Two people facing serene bay in Alaska during golden hour." },
+  { src: "/photos/photo24.jpeg", alt: "Free-standing natural stone pillars in Alaskan bay." },
+  { src: "/photos/photo25.jpeg", alt: "Hot air balloons inflating above a crowd of onlookers." },
+  { src: "/photos/photo26.jpeg", alt: "DJ equipment" },
+  { src: "/photos/photo27.jpeg", alt: "Sunset on the beach in Southern California." },
+  { src: "/photos/photo28.jpeg", alt: "Backpack hanging from a wooden fence in a national park." },
 ];
 
 export default function About() {
@@ -61,45 +60,45 @@ export default function About() {
             <div className="grid grid-cols-1 md:grid-cols-5 md:grid-rows-[repeat(3,400px)] gap-4">
               <div className="md:col-span-3 aspect-[4/3] md:aspect-auto bg-slate-200 rounded-lg overflow-hidden">
                 <img
-                  src={selectedPhotos[0]}
-                  alt="Photography"
+                  src={selectedPhotos[0].src}
+                  alt={selectedPhotos[0].alt}
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="md:col-span-2 aspect-[4/3] md:aspect-auto bg-slate-200 rounded-lg overflow-hidden">
                 <img
-                  src={selectedPhotos[1]}
-                  alt="Photography"
+                  src={selectedPhotos[1].src}
+                  alt={selectedPhotos[1].alt}
                   className="w-full h-full object-cover"
                 />
               </div>
 
               <div className="md:col-span-2 aspect-[4/3] md:aspect-auto bg-slate-200 rounded-lg overflow-hidden">
                 <img
-                  src={selectedPhotos[2]}
-                  alt="Photography"
+                  src={selectedPhotos[2].src}
+                  alt={selectedPhotos[2].alt}
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="md:col-span-3 aspect-[4/3] md:aspect-auto bg-slate-200 rounded-lg overflow-hidden">
                 <img
-                  src={selectedPhotos[3]}
-                  alt="Photography"
+                  src={selectedPhotos[3].src}
+                  alt={selectedPhotos[3].alt}
                   className="w-full h-full object-cover"
                 />
               </div>
 
               <div className="md:col-span-3 aspect-[4/3] md:aspect-auto bg-slate-200 rounded-lg overflow-hidden">
                 <img
-                  src={selectedPhotos[4]}
-                  alt="Photography"
+                  src={selectedPhotos[4].src}
+                  alt={selectedPhotos[4].alt}
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="md:col-span-2 aspect-[4/3] md:aspect-auto bg-slate-200 rounded-lg overflow-hidden">
                 <img
-                  src={selectedPhotos[5]}
-                  alt="Photography"
+                  src={selectedPhotos[5].src}
+                  alt={selectedPhotos[5].alt}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -117,7 +116,7 @@ export default function About() {
             <section className="mb-12">
               <h2 className="text-3xl font-bold mb-4 pb-1 border-b-2 border-sky-600 inline-block">DJ-ing & Music</h2>
               <p className="text-slate-700 leading-relaxed mb-4">
-                There's a certain feeling you get while you're up playing music: you hit a transition you've been practicing, the people in the room don't see it coming, and they scream in excitement and delight when it registers. I love love <i>love</i> that feeling! I think that DJ-ing is such a fun way to share music with friends and to give a party a specific feeling or energy. It's also a great outlet for all the music that I listen to and gives me somewhere to channel my creative energy!
+                There's a certain feeling you get while you're up playing music: you hit a transition you've been practicing, the people in the room don't see it coming, and they scream in excitement and delight when it registers. I absolutely love that feeling! I think that DJ-ing is such a fun way to share music with friends and to give a party a specific feeling or energy. It's also a great outlet for all the music that I listen to and gives me somewhere to channel my creative energy!
               </p>
               <a
                 href="https://youtube.com/@justval_official?si=JtOBpdXk8h9wN67W"
@@ -135,7 +134,7 @@ export default function About() {
             <section>
               <h2 className="text-3xl font-bold mb-4 pb-1 border-b-2 border-sky-600 inline-block">Other Interests</h2>
               <p className="text-slate-700 leading-relaxed">
-                Apparently having too many hobbies means you're a multipotentialite! Sounds a lot better when you put it that way. I'm an introverted geek at heart, a gearhead, a coffee enthusiast, I love to travel, I love to cook for the people in my life, I play video games, I lift weights, I read, I like to do anything active that's outside. Learning new things is so incredibly exciting and stimulating to me and there's just so much out there for you to explore!
+                Apparently having too many hobbies means you're a multipotentialite! Sounds a lot better when you put it that way. I'm an introverted geek at heart, a gearhead, a coffee enthusiast, I love to travel, I love to cook for the people in my life, I play video games, I lift weights, I read, and I like to do anything active outdoors. Learning new things is so incredibly exciting and stimulating to me and there's just so much out there for you to explore!
               </p>
             </section>
           </div>

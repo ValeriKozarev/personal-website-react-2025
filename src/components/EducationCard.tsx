@@ -26,7 +26,7 @@ export default function EducationCard({ degree, school, year, gpa, honors, logoU
 
                 {honors && honors.length > 0 && (
                     <div>
-                        <p className="text-sm font-medium text-slate-700 mb-1">Honors & Societies</p>
+                        <p className="text-sm font-medium text-slate-700 mb-1">Honors & Activities</p>
                         <ul className="text-slate-600 space-y-1">
                             {honors.map((honor, index) => (
                                 <li key={index} className="flex gap-2 items-start">
