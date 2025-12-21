@@ -2,15 +2,14 @@ export interface IEducationCard {
     degree: string,
     school: string,
     year: string,
-    gpa?: string,  // Optional GPA
-    honors?: string[],  // Optional honors and societies
-    logoUrl?: string  // Optional logo image URL
+    gpa: string,
+    honors: string[],
+    logoUrl?: string
 }
 
 export default function EducationCard({ degree, school, year, gpa, honors, logoUrl }: IEducationCard) {
     return (
         <div className="bg-white p-6 rounded-lg border border-slate-200 flex gap-6">
-            {/* Logo - hidden on mobile, shown on desktop */}
             {logoUrl && (
                 <div className="hidden md:flex items-center flex-shrink-0">
                     <img
@@ -21,10 +20,9 @@ export default function EducationCard({ degree, school, year, gpa, honors, logoU
                 </div>
             )}
 
-            {/* Content */}
             <div className="flex-1">
                 <h3 className="text-2xl font-semibold">{degree}</h3>
-                <p className="text-slate-600 mb-3">{school} • {year}{gpa && ` • GPA: ${gpa}`}</p>
+                <p className="text-slate-600 mb-3">{school} • {year}{gpa && ` • ${gpa}`}</p>
 
                 {honors && honors.length > 0 && (
                     <div>

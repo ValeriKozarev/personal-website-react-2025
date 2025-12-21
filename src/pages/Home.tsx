@@ -1,11 +1,9 @@
 export default function Home() {
   return (
     <div className="flex-1 flex items-center">
-      {/* Hero Section */}
       <section className="container mx-auto px-8 py-16 w-full">
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-12">
-            {/* Left: Blurb */}
             <div className="flex-1">
               <h1 className="text-5xl font-bold mb-6">Hi, I'm Val &#128075;&#127996;</h1>
               <p className="text-xl text-slate-700 leading-relaxed mb-4">
@@ -16,7 +14,6 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Right: Photo */}
             <div className="w-full md:w-72 flex-shrink-0">
               <img
                 src="/profile.jpeg"

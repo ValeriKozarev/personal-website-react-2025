@@ -5,9 +5,9 @@ export interface IWorkExperienceCard {
     company: string,
     timeStart: string,
     timeEnd: string,
-    summary: string | string[],  // Can accept either a single string or array of bullet points
-    isCurrent?: boolean,  // optional prop used to highlight current role
-    technologies?: string[]  // optional array of technologies/skills used
+    summary: string | string[],
+    isCurrent?: boolean,
+    technologies?: string[]
 }
 
 export default function WorkExperienceCard({ title, company, timeStart, timeEnd, summary, isCurrent = false, technologies }: IWorkExperienceCard) {

@@ -1,6 +1,6 @@
 export interface IBadge {
     label: string,
-    variant?: 'default' | 'primary'  // Can extend with more variants later
+    variant?: 'default' | 'primary'
 }
 
 export default function Badge({ label, variant = 'default' }: IBadge) {
