@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom'
 
 export default function Navigation() {
   return (
-    <nav className="bg-white border-b border-slate-200" aria-label="Main navigation">
+    <nav className="bg-white border-b border-slate-200 shadow-sm" aria-label="Main navigation">
       <div className="container mx-auto px-4">
         <div className="flex justify-center gap-8 py-4">
           <NavLink

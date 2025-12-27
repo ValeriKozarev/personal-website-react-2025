@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-white border-t border-slate-200 mt-auto">
+    <footer className="bg-white border-t border-slate-200 mt-auto" style={{ boxShadow: '0 -1px 3px 0 rgba(0, 0, 0, 0.1)' }}>
       <div className="container mx-auto px-4 py-6">
         <div className="max-w-4xl mx-auto text-center">
           <h3 className="text-lg font-semibold mb-2">Let's Connect!</h3>
