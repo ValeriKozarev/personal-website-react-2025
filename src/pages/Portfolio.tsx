@@ -11,7 +11,7 @@ export default function Portfolio() {
         <div className="max-w-4xl mx-auto">
 
           <section className="mb-16">
-            <h2 className="text-4xl font-bold mb-4 pb-1 border-b-2 border-cyan-600 inline-block">Work History</h2>
+            <h2 className="text-4xl font-bold mb-4 pb-1 border-b-2 border-primary-500 inline-block">Work History</h2>
             <CollapsibleSection>
               <div className="space-y-8">
                 <WorkExperienceCard
@@ -68,7 +68,7 @@ export default function Portfolio() {
           </section>
 
           <section className="mb-16">
-            <h2 className="text-4xl font-bold mb-4 pb-1 border-b-2 border-cyan-600 inline-block">Projects</h2>
+            <h2 className="text-4xl font-bold mb-4 pb-1 border-b-2 border-primary-500 inline-block">Projects</h2>
             <CollapsibleSection collapsedHeight="400px">
               <div className="space-y-6">
               <ProjectCard
@@ -106,7 +106,7 @@ export default function Portfolio() {
           </section>
 
           <section className="mb-16">
-            <h2 className="text-4xl font-bold mb-4 pb-1 border-b-2 border-cyan-600 inline-block">Skills</h2>
+            <h2 className="text-4xl font-bold mb-4 pb-1 border-b-2 border-primary-500 inline-block">Skills</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div>
                 <h3 className="text-xl font-semibold mb-3">Frontend</h3>
@@ -128,7 +128,7 @@ export default function Portfolio() {
           </section>
 
           <section>
-            <h2 className="text-4xl font-bold mb-4 pb-1 border-b-2 border-cyan-600 inline-block">Education</h2>
+            <h2 className="text-4xl font-bold mb-4 pb-1 border-b-2 border-primary-500 inline-block">Education</h2>
             <EducationCard
               degree="Bachelor of Science, Computer Science (Statistics Minor)"
               school="North Carolina State University"

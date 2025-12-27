@@ -12,7 +12,7 @@ export default function Footer() {
               href="https://linkedin.com/in/valeri-kozarev"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-slate-600 hover:text-slate-900 transition-colors"
+              className="text-slate-600 hover:text-primary-600 transition-colors"
               aria-label="LinkedIn"
             >
               <svg
@@ -30,7 +30,7 @@ export default function Footer() {
               href="https://github.com/ValeriKozarev"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-slate-600 hover:text-slate-900 transition-colors"
+              className="text-slate-600 hover:text-primary-600 transition-colors"
               aria-label="GitHub"
             >
               <svg

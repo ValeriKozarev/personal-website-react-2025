@@ -65,7 +65,7 @@ export default class ErrorBoundary extends Component<IErrorBoundaryProps, IError
               <div className="mt-8 flex gap-4 justify-center">
                 <button
                   onClick={() => this.setState({ hasError: false })}
-                  className="inline-flex items-center gap-2 px-6 py-3 bg-slate-100 text-slate-900 font-medium rounded-lg hover:bg-slate-200 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-slate-400 focus-visible:ring-offset-2"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-slate-100 text-slate-900 font-medium rounded-lg hover:bg-slate-200 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2"
                 >
                   <svg
                     className="w-5 h-5"
@@ -85,7 +85,7 @@ export default class ErrorBoundary extends Component<IErrorBoundaryProps, IError
                 
                 <Link
                   to="/"
-                  className="inline-flex items-center gap-2 px-6 py-3 bg-slate-900 text-white font-medium rounded-lg hover:bg-slate-800 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-slate-400 focus-visible:ring-offset-2"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2"
                 >
                   <svg
                     className="w-5 h-5"

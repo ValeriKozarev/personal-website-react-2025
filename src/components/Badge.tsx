@@ -6,7 +6,7 @@ export interface IBadge {
 export default function Badge({ label, variant = 'default' }: IBadge) {
     const variantStyles = {
         default: 'bg-white text-slate-700 border border-slate-300',
-        primary: 'bg-blue-100 text-blue-700'
+        primary: 'bg-primary-100 text-primary-700'
     };
 
     return (

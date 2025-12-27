@@ -3,6 +3,18 @@
 @theme {
   --font-family-sans: 'Inter', sans-serif;
   --color-warm-white: #faf8f5;
+
+  /* Primary color scale based on #3e77b9 */
+  --color-primary-50: #eff6fc;
+  --color-primary-100: #deedf9;
+  --color-primary-200: #bcdcf3;
+  --color-primary-300: #8ac2ea;
+  --color-primary-400: #5fa9dd;
+  --color-primary-500: #4a8fca;
+  --color-primary-600: #3e77b9;
+  --color-primary-700: #335f96;
+  --color-primary-800: #2a4d78;
+  --color-primary-900: #223d5f;
 }
 
 @keyframes rainbow {

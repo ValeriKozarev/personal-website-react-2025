@@ -17,7 +17,7 @@ export default function ProjectCard({ title, description, technologies, projectU
                     href={projectUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="absolute top-6 right-6 text-slate-600 hover:text-slate-900 transition-colors"
+                    className="absolute top-6 right-6 text-slate-600 hover:text-primary-600 transition-colors"
                     aria-label={isGitHub ? "View on GitHub" : "View project"}
                 >
                     {isGitHub ? (

@@ -108,14 +108,14 @@ export default function About() {
 
           <div className="max-w-4xl mx-auto">
             <section className="mb-12">
-              <h2 className="text-3xl font-bold mb-4 pb-1 border-b-2 border-sky-600 inline-block">Film Photography</h2>
+              <h2 className="text-3xl font-bold mb-4 pb-1 border-b-2 border-primary-500 inline-block">Film Photography</h2>
               <p className="text-slate-700 leading-relaxed">
                 A few of my really close friends got me into film photography a few years ago, and I completely fell in love. I love the deliberate, analog feeling of shooting film and the anticipation of waiting for a roll to get developed and scanned. I've been enjoying taking a camera with me when I travel to permanently capture moments from the trip to look back on. At the end of the day I'm just a sentimental person though, and taking photos of people and places that make me happy just means a lot to me!
               </p>
             </section>
 
             <section className="mb-12">
-              <h2 className="text-3xl font-bold mb-4 pb-1 border-b-2 border-sky-600 inline-block">DJ-ing & Music</h2>
+              <h2 className="text-3xl font-bold mb-4 pb-1 border-b-2 border-primary-500 inline-block">DJ-ing & Music</h2>
               <p className="text-slate-700 leading-relaxed mb-4">
                 There's a certain feeling you get while you're up playing music: you hit a transition you've been practicing, the people in the room don't see it coming, and they scream in excitement and delight when it registers. I absolutely love that feeling! I think that DJ-ing is such a fun way to share music with friends and to give a party a specific feeling or energy. It's also a great outlet for all the music that I listen to and gives me somewhere to channel my creative energy!
               </p>
@@ -123,7 +123,7 @@ export default function About() {
                 href="https://youtube.com/@justval_official?si=JtOBpdXk8h9wN67W"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-sky-600 hover:text-sky-700 font-medium transition-colors"
+                className="inline-flex items-center gap-2 text-primary-600 hover:text-primary-700 font-medium transition-colors"
               >
                 Check out some of my mixes
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -133,7 +133,7 @@ export default function About() {
             </section>
 
             <section>
-              <h2 className="text-3xl font-bold mb-4 pb-1 border-b-2 border-sky-600 inline-block">Other Interests</h2>
+              <h2 className="text-3xl font-bold mb-4 pb-1 border-b-2 border-primary-500 inline-block">Other Interests</h2>
               <p className="text-slate-700 leading-relaxed">
                 Apparently having too many hobbies means you're a multipotentialite! Sounds a lot better when you put it that way. I'm an introverted geek at heart, a gearhead, a coffee enthusiast, I love to travel, I love to cook for the people in my life, I play video games, I lift weights, I read, and I like to do anything active outdoors. Learning new things is so incredibly exciting and stimulating to me and there's just so much out there for you to explore!
               </p>

@@ -9,10 +9,10 @@ export default function Navigation() {
             to="/"
             end
             className={({ isActive }) =>
-              `text-sm font-medium transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-slate-400 focus-visible:ring-offset-2 rounded-sm px-2 py-1 -mx-2 -my-1 ${
+              `text-sm font-medium transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2 rounded-sm px-2 py-1 -mx-2 -my-1 ${
                 isActive
-                  ? 'text-slate-900'
-                  : 'text-slate-600 hover:text-slate-900'
+                  ? 'text-primary-600 font-semibold'
+                  : 'text-slate-600 hover:text-primary-600'
               }`
             }
           >
@@ -21,10 +21,10 @@ export default function Navigation() {
           <NavLink
             to="/portfolio"
             className={({ isActive }) =>
-              `text-sm font-medium transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-slate-400 focus-visible:ring-offset-2 rounded-sm px-2 py-1 -mx-2 -my-1 ${
+              `text-sm font-medium transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2 rounded-sm px-2 py-1 -mx-2 -my-1 ${
                 isActive
-                  ? 'text-slate-900'
-                  : 'text-slate-600 hover:text-slate-900'
+                  ? 'text-primary-600 font-semibold'
+                  : 'text-slate-600 hover:text-primary-600'
               }`
             }
           >
@@ -33,10 +33,10 @@ export default function Navigation() {
           <NavLink
             to="/about"
             className={({ isActive }) =>
-              `text-sm font-medium transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-slate-400 focus-visible:ring-offset-2 rounded-sm px-2 py-1 -mx-2 -my-1 ${
+              `text-sm font-medium transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2 rounded-sm px-2 py-1 -mx-2 -my-1 ${
                 isActive
-                  ? 'text-slate-900'
-                  : 'text-slate-600 hover:text-slate-900'
+                  ? 'text-primary-600 font-semibold'
+                  : 'text-slate-600 hover:text-primary-600'
               }`
             }
           >
