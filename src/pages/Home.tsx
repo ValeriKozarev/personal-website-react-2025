@@ -15,7 +15,7 @@ export default function Home() {
                 This site is a snapshot of my work and how I approach software engineering. I periodically rebuild it to explore new tools, stay current with industry trends, and sharpen my skills. You'll find career highlights, personal projects, and little snapshots into some of my hobbies throughout - feel free to explore and get in touch!
               </p>
               <a
-                href="/resume.pdf"
+                href="/Valeri_Kozarev_Resume.pdf"
                 download
                 className="inline-flex items-center gap-2 px-6 py-3 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 shadow-md hover:shadow-lg transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2"
               >
