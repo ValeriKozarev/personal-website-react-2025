@@ -72,6 +72,12 @@ export default function Portfolio() {
             <CollapsibleSection collapsedHeight="400px">
               <div className="space-y-6">
               <ProjectCard
+                title="Harmonic"
+                description="A Python CLI tool for DJs to find compatible tracks using the Spotify API. Given a BPM and Camelot key (or a source track), harmonic searches an artist's catalog or your Spotify playlists and returns ranked recommendations for your next mix."
+                technologies={["Python"]}
+                projectUrl="https://github.com/ValeriKozarev/harmonic"
+              />
+              <ProjectCard
                 title="HYPR-VISR"
                 description="A local-first todo/task management desktop app built with Tauri and React. I love staying organized and making lists, so Notion is an app that I use all the time. That said, there are some aspects of it that I don't like so I'm making my own! I use HYPR-VISR at home and at work for all of my task management and it works really well for me. I am continuously iterating on it and adding new features as I think of them, and I have a lot of fun working on it in my free time!"
                 technologies={["React", "TypeScript", "Tailwind", "Rust", "Tauri"]}
