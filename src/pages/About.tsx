@@ -1,5 +1,6 @@
 import { useState } from "react";
 import LazyImage from "../components/LazyImage";
+import PageHead from "../components/PageHead";
 
 const allPhotos = [
   { src: "/photos/photo1.jpeg", alt: "Buddha statues in a row in manicured outdoor garden." },
@@ -43,6 +44,11 @@ export default function About() {
 
   return (
     <div className="flex-1">
+      <PageHead
+        title="About - Val Kozarev"
+        description="Get to know Val Kozarev beyond the resume — hobbies, interests, and a glimpse of life outside of software engineering."
+        path="/about"
+      />
       <div className="container mx-auto px-4 py-16">
         <div className="max-w-6xl mx-auto">
           <h1 className="text-5xl font-bold mb-12 text-center">

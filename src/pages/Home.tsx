@@ -1,8 +1,14 @@
 import LazyImage from "../components/LazyImage";
+import PageHead from "../components/PageHead";
 
 export default function Home() {
   return (
     <div className="flex-1 flex items-center">
+      <PageHead
+        title="Val Kozarev - Senior Software Engineer"
+        description="Personal site of Val Kozarev, a senior software engineer with 5+ years of full-stack experience. Includes a downloadable resume and overview of my work."
+        path="/"
+      />
       <section className="container mx-auto px-8 py-16 w-full">
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-12">
@@ -15,7 +21,7 @@ export default function Home() {
                 This site is a snapshot of my work and how I approach software engineering. I periodically rebuild it to explore new tools, stay current with industry trends, and sharpen my skills. You'll find career highlights, personal projects, and little snapshots into some of my hobbies throughout - feel free to explore and get in touch!
               </p>
               <a
-                href="/Valeri_Kozarev_Resume.pdf"
+                href="/Valeri_Kozarev_Resume_2026.pdf"
                 download
                 className="inline-flex items-center gap-2 px-6 py-3 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 shadow-md hover:shadow-lg transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2"
               >

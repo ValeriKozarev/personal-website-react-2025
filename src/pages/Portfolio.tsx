@@ -3,10 +3,16 @@ import ProjectCard from "../components/ProjectCard";
 import Badge from "../components/Badge";
 import EducationCard from "../components/EducationCard";
 import CollapsibleSection from "../components/CollapsibleSection";
+import PageHead from "../components/PageHead";
 
 export default function Portfolio() {
   return (
     <div className="flex-1">
+      <PageHead
+        title="Portfolio - Val Kozarev"
+        description="Work history at Alarm.com and beyond, personal software projects, and the engineering skillset of senior software engineer Val Kozarev."
+        path="/portfolio"
+      />
       <div className="container mx-auto px-4 py-16">
         <div className="max-w-4xl mx-auto">
 
@@ -19,7 +25,7 @@ export default function Portfolio() {
                   company={"Alarm.com"}
                   timeStart={"June 2022"}
                   timeEnd={"Present"}
-                  summary={["Promoted to take ownership of team's web efforts, with expanded responsibilities including high-level project planning, managing mid-level engineers, and collaborating with leads on new initiatives.", "Owned the design, development, and roll-out of a business-critical internal tool handling millions of live production accounts with a focus on performance and reliability. Directly unblocked over a dozen key projects and business partner opportunities.", "Developed and deployed agentic AI tooling for company-wide use, including custom MCP skills and Jira-integrated agents that autonomously triage and resolve backlog tickets. Led knowledge shares and training on agentic coding and AI best practices.", "Led initiatives to standardize accessibility testing and documentation processes, improving workflows, cross-department productivity, and overall UX posture.", "Mentored interns and junior developers, and refined team onboarding processes to accelerate integration of new hires and reduce time-to-contribution."]}
+                  summary={["Promoted to take ownership of team's web efforts, with expanded responsibilities including high-level project planning, independent research and development focused on team-specific needs, and collaborating with leads on new initiatives.", "Owned the design, development, and roll-out of a business-critical internal tool handling millions of live production accounts with a focus on performance and reliability. Directly unblocked over a dozen key projects and business partner opportunities.", "Developed and deployed agentic AI tooling for company-wide use, including custom MCP skills and Jira-integrated agents that autonomously triage and resolve backlog tickets. Led knowledge shares and training on agentic coding and AI best practices.", "Led initiatives to standardize accessibility testing and documentation processes, improving workflows, cross-department productivity, and overall UX posture.", "Mentored interns and junior developers, and refined team onboarding processes to accelerate integration of new hires and reduce time-to-contribution."]}
                   isCurrent={true}
                   technologies={["Ember", "TypeScript", "React", "C#", ".NET", "SQL"]}
                 />
